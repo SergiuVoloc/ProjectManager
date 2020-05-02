@@ -1,0 +1,26 @@
+
+$blueDark:#034b66;
+
+// ======================================
+//             Media Queries
+// ======================================
+$SM: 576px;
+$MD: 768px;
+$LG: 992px;
+$XL: 1200px;
+
+// ======================================
+//           Partials Inport
+// ======================================
+
+@import "components/navbar";
+@import "components/footer";
+
+//             Pages:
+
+
+
+//  used to help debuging
+* {
+  border: 1px solid #ff0000;
+}
