@@ -60,7 +60,7 @@ label {
   position: relative;
 }
 
-.top-bar-w3layouts {
+.top_bar {
   width: 100%;
   z-index: 99999;
   background: #fff;
@@ -126,7 +126,7 @@ nav.linkEffects.linkHoverEffect_12 ul {
 }
 
 /*-- //Info --*/
-/*-- //top-bar-w3layouts --*/
+/*-- //top_bar --*/
 /*--banner-slider--*/
 #slider2,
 #slider3 {
