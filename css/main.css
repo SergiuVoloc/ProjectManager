@@ -63,7 +63,7 @@ label {
 .top_bar {
   width: 100%;
   z-index: 99999;
-  background: #fff;
+  background: #034b66;
 }
 
 /*-- Logo --*/
@@ -424,7 +424,7 @@ img.img-responsive {
 
 .top {
   padding: 10px 0;
-  background: #1e3953;
+  background: #034b66;
 }
 
 .top-middle {
@@ -538,7 +538,7 @@ img.img-responsive {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #000000;
+  color: white;
   letter-spacing: 1px;
   text-transform: capitalize;
   padding: 15px 13px;
@@ -671,7 +671,7 @@ ul.nav.navbar-nav li a.active::before {
 /*-- //nav-effect --*/
 .navbar-header h1 a {
   font-size: 1.4em;
-  color: #1e3953;
+  color: white;
   text-decoration: none;
   font-weight: 700;
   margin: 0.3em 0;
@@ -1817,6 +1817,3 @@ textarea {
 }
 
 /*-- //to-top --*/
-* {
-  border: 1px solid #ff0000;
-}
