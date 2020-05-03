@@ -1,20 +1,24 @@
 
 $blueDark:#034b66;
+$blue: #1a73e8;
 
-// ======================================
-//             Media Queries
-// ======================================
+// =============================
+//        Media Queries
+// =============================
 $SM: 576px;
 $MD: 768px;
 $LG: 992px;
 $XL: 1200px;
 
-// ======================================
-//           Partials Inport
-// ======================================
+// =============================
+//      Partials Inport
+// =============================
 
 @import "components/navbar";
 @import "components/footer";
+@import "components/carousel";
+@import "components/login";
+
 
 //             Pages:
 
