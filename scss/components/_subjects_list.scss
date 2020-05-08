@@ -19,7 +19,7 @@
 }
 
 
-.list-subjects{
+.list-subjects1{
     .linie1::after{
         content: "";
         border: 1px solid;
@@ -72,7 +72,7 @@
     }
 }
 
-.content-table{
+.content-table1{
     margin-top: 4%;
     border-collapse: collapse;
    margin-left:4.6%;
@@ -120,3 +120,126 @@
    
 
 }
+
+@media only screen and(max-width:770px){
+    .main_text1{
+        h1{
+            margin-top:1%;
+            font-size: 35px;
+            color: black;
+        }
+    
+        h4{
+            margin-left: 2%;
+            color:black;
+            font-size: 14px;
+        }
+    
+       h5{
+           margin-left: -4.2%;
+           font-size: 14px;
+           color:black;
+       }
+        
+    }
+    
+    
+    .list-subjects1{
+        .linie1::after{
+            content: "";
+            border: 1px solid;
+            color:black;
+            height: 1px;
+            width: 40px;
+            left: 210px;
+            top:288px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        .inner-skill{
+            background:black;
+            border: 1px solid;
+            height: 1px;
+            width: 40px;
+            left: 210px;
+            top:288px;
+            position: absolute;
+            border-radius: 20px;
+        }
+    
+        h3{
+            text-transform: uppercase;
+            color:black;
+            margin-top:4%;
+            font-size:23px;
+        }
+    
+        .linie2::after{
+            content: "";
+            border: 1px solid;
+            color:black;
+            height: 1px;
+            width: 40px;
+            left: 510px;
+            top:288px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        .inner-skil1{
+            background:black;
+            border: 1px solid;
+            height: 1px;
+            width: 40px;
+            left: 510px;
+            top:288px;
+            position: absolute;
+            border-radius: 20px;
+        }
+    }
+    .content-table1{
+        margin-top: 4%;
+        border-collapse: collapse;
+       margin-left:4.6%;
+       width: 10px;
+       color:black;
+       font-size:11px;
+      
+       thead{
+           tr{
+               background : #009879;
+               color: white;
+               th{
+                padding: 4px 10px; 
+                text-transform: uppercase;;
+               }
+               
+           }
+       }
+    
+      tbody{
+          tr{
+              border-bottom:1px solid #dddddd;
+              
+              td{
+                padding: 4px 107px;
+                
+              }
+          }
+      }
+    
+      tbody{
+          tr:first-of-type{
+              background-color:#f3f3f3;
+          }
+      }
+    
+      tbody{
+        tr:last-of-type{
+           border-bottom:3px solid #009879;
+        }
+    }
+       
+    
+    }
+}
+       
