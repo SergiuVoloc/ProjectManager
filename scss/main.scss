@@ -5,28 +5,21 @@ $green:#009879;
 
 
 // =============================
-//        Media Queries
-// =============================
-$SM: 576px;
-$MD: 768px;
-$LG: 992px;
-$XL: 1200px;
-
-// =============================
 //      Partials Inport
 // =============================
 
 @import "components/navbar";
-@import "components/footer";
 @import "components/carousel";
+@import "components/footer";
 @import "components/login";
+
+
+//             Pages:
 @import "components/subjects_list";
 @import "components/review";
 @import "components/grade";
 @import "components/add_new";
-
-//             Pages:
-
+@import "components/change_pw";
 
 
 //  used to help debuging

@@ -71,12 +71,6 @@ label {
   width: 220px;
 }
 
-/*-- footer --*/
-.footer {
-  background: #0b0c11;
-  padding: 1em 0em;
-}
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -177,9 +171,15 @@ body {
   }
 }
 
+.footer {
+  background: #0b0c11;
+  padding: 1em 0em;
+  margin-top: 180px;
+}
+
 .form-signin {
   width: 100%;
-  max-width: 330px;
+  max-width: 550px;
   padding: 15px;
   margin: 0 auto;
   margin-top: 120px;
@@ -866,4 +866,8 @@ body {
     background-color: #45aaf2;
     cursor: pointer;
   }
+}
+
+.footer_change_pw {
+  margin-top: 93px;
 }
