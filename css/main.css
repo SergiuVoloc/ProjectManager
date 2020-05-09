@@ -214,6 +214,14 @@ body {
   border-top-right-radius: 0;
 }
 
+.form-signin h1 {
+  font-size: 55px;
+}
+
+.form-signin p {
+  font-size: larger;
+}
+
 .main_text h1 {
   margin-top: 1%;
   font-size: 75px;
@@ -870,4 +878,45 @@ body {
 
 .footer_change_pw {
   margin-top: 93px;
+}
+
+.change_pw h1 {
+  font-size: 55px;
+}
+
+.change_pw p {
+  font-size: larger;
+}
+
+.upload {
+  width: 100%;
+  max-width: 550px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 41px;
+}
+
+.upload .text-center h1 {
+  font-size: 55px;
+}
+
+.upload .text-center p {
+  font-size: larger;
+}
+
+.upload .centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.footer_upload {
+  margin-top: 31px;
 }

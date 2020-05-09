@@ -28,8 +28,11 @@
                 <li class="nav-item pr-4 active">
                     <a class="nav-link " href="#">Account </a>
                 </li>
-                <li class="nav-item active ">
-                    <a class="nav-link" href="#">Change Password</a>
+                <li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="#">Upload</a>
+                </li>
+                <li class="nav-item active  ">
+                    <a class="nav-link" href="change_pw.html">Change Password</a>
                 </li>
             </ul>
         </div>
@@ -37,36 +40,63 @@
     <!-- Navbar end -->
 
 
-    <!-- Change password start -->
-    <form class="form-signin change_pw">
+
+
+
+    <!-- Upload form start -->
+    <form class="upload">
         <div class="text-center mb-4">
-            <h1 class="h1 mb-4 font-weight-bold text-dark">Change Your Password</h1>
-            <h5 class="text-muted">Create a new password. And don't forget to save!</h5>
+            <h1 class="h1 mb-3 font-weight-bold text-dark">Upload Your Work</h1>
+            <p class="text-muted">Choose a title, teacher and the subject. That't it.</p>
         </div>
 
-        <div class="form-label-group mb-2 mt-5">
-            <label class="text-dark font-weight-bold" for="inputEmail">Old Password</label>
-            <input type="text" class="form-control" placeholder="Old Password" required autofocus>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Give a title to your assignment:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Assignment title">
         </div>
 
-        <div class="form-label-group mb-2">
-            <label class="text-dark font-weight-bold" for="inputPassword">New Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="New Password" required>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose your teacher:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Teacher 1</option>
+                <option>Teacher 2</option>
+                <option>Teacher 3</option>
+                <option>Teacher 4</option>
+                <option>Teacher 5</option>
+            </select>
         </div>
 
-        <div class="form-label-group mb-5">
-            <label class="text-dark font-weight-bold" for="inputPassword">Confirm New Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder=" Confirm New Password" required>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose the subject:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Subject 1</option>
+                <option>Subject 2</option>
+                <option>Subject 3</option>
+                <option>Subject 4</option>
+                <option>Subject 5</option>
+            </select>
         </div>
 
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Change Password</button>
+        <div class="custom-file mt-3">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file from your computer</label>
+        </div>
+
+        <div class="centered">
+            <button type="submit" class="btn btn-primary my-1 ">Submit</button>
+        </div>
     </form>
-    <!-- Change password end -->
+
+
+    <!-- Upload form end -->
+
+
+
 
 
 
     <!-- Footer start -->
-    <p class="footer mb-0 text-muted text-center footer_change_pw">
+    <p class="footer mb-0 text-muted text-center footer_upload">
         &copy; 2020
     </p>
     <!-- Footer end -->
