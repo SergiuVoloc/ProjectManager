@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A online platform for managing university projects" />
+    <meta name="author" content="Voloc Sergiu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Manager Platform</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.min.css" />
+
+</head>
+
+<body>
+    <!-- ====================== NAVBAR ============================ -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <a class="navbar-brand " href="#">University of Craiova</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTarget"
+            aria-controls="navbarTarget" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-right" id="navbarTarget">
+            <ul class="nav navbar-nav ml-auto mr-5 ">
+                <li class="nav-item pr-4 active">
+                    <a class="nav-link " href="#">Account </a>
+                </li>
+                <li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="#">Upload</a>
+                </li>
+                <li class="nav-item active  ">
+                    <a class="nav-link" href="change_pw.html">Change Password</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+
+
+
+
+    <!-- Upload form start -->
+    <form class="upload">
+        <div class="text-center mb-4">
+            <h1 class="h1 mb-3 font-weight-bold text-dark">Upload Your Work</h1>
+            <p class="text-muted">Choose a title, teacher and the subject. That't it.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput">Give a title to your assignment:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Assignment title">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose your teacher:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Teacher 1</option>
+                <option>Teacher 2</option>
+                <option>Teacher 3</option>
+                <option>Teacher 4</option>
+                <option>Teacher 5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose the subject:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Subject 1</option>
+                <option>Subject 2</option>
+                <option>Subject 3</option>
+                <option>Subject 4</option>
+                <option>Subject 5</option>
+            </select>
+        </div>
+
+        <div class="custom-file mt-3">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file from your computer</label>
+        </div>
+
+        <div class="centered">
+            <button type="submit" class="btn btn-primary my-1 ">Submit</button>
+        </div>
+    </form>
+
+
+    <!-- Upload form end -->
+
+
+
+
+
+
+    <!-- Footer start -->
+    <p class="footer mb-0 text-muted text-center footer_upload">
+        &copy; 2020
+    </p>
+    <!-- Footer end -->
+
+
+
+    <!-- ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
