@@ -244,7 +244,7 @@ body {
   border: 1px solid;
   color: black;
   height: 1px;
-  width: 250px;
+  width: 13%;
   left: 26%;
   top: 43%;
   position: absolute;
@@ -255,7 +255,7 @@ body {
   background: black;
   border: 1px solid;
   height: 1px;
-  width: 250px;
+  width: 13%;
   left: 26%;
   top: 43%;
   position: absolute;
@@ -274,7 +274,7 @@ body {
   border: 1px solid;
   color: black;
   height: 1px;
-  width: 250px;
+  width: 13%;
   left: 61%;
   top: 43%;
   position: absolute;
@@ -285,7 +285,7 @@ body {
   background: black;
   border: 1px solid;
   height: 1px;
-  width: 250px;
+  width: 13%;
   left: 61%;
   top: 43%;
   position: absolute;
@@ -296,7 +296,7 @@ body {
   margin-top: 4%;
   border-collapse: collapse;
   margin-left: 7%;
-  width: 1000px;
+  width: 70%;
   color: black;
   font-size: 20px;
   border-radius: 5px 5px 0 0;
