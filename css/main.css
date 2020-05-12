@@ -920,3 +920,19 @@ body {
 .footer_upload {
   margin-top: 31px;
 }
+
+.form-control {
+  border-radius: 20px;
+}
+
+.footer_add_account {
+  width: 100%;
+}
+
+.buton {
+  border: none;
+  border-radius: 20px;
+  padding: 4px 100px;
+  font-size: 23px;
+  margin-left: 25%;
+}
