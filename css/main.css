@@ -293,16 +293,10 @@ body {
 }
 
 .content-table1 {
-  margin-top: 4%;
-  border-collapse: collapse;
-  margin-left: 7%;
-  width: 70%;
-  color: black;
   font-size: 20px;
   border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .content-table1 thead tr {
@@ -311,16 +305,11 @@ body {
 }
 
 .content-table1 thead tr th {
-  padding: 12px 25px;
   text-transform: uppercase;
 }
 
 .content-table1 tbody tr {
   border-bottom: 1px solid #dddddd;
-}
-
-.content-table1 tbody tr td {
-  padding: 12px 255px;
 }
 
 .content-table1 tbody tr:first-of-type {
@@ -329,100 +318,6 @@ body {
 
 .content-table1 tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
-}
-
-@media only screen and (max-width: 770px) {
-  .main_text1 h1 {
-    margin-top: 1%;
-    font-size: 35px;
-    color: black;
-  }
-  .main_text1 h4 {
-    margin-left: 2%;
-    color: black;
-    font-size: 14px;
-  }
-  .main_text1 h5 {
-    margin-left: -4.2%;
-    font-size: 14px;
-    color: black;
-  }
-  .list-subjects1 .linie1::after {
-    content: "";
-    border: 1px solid;
-    color: black;
-    height: 1px;
-    width: 40px;
-    left: 210px;
-    top: 288px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .list-subjects1 .inner-skill {
-    background: black;
-    border: 1px solid;
-    height: 1px;
-    width: 40px;
-    left: 210px;
-    top: 288px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .list-subjects1 h3 {
-    text-transform: uppercase;
-    color: black;
-    margin-top: 4%;
-    font-size: 23px;
-  }
-  .list-subjects1 .linie2::after {
-    content: "";
-    border: 1px solid;
-    color: black;
-    height: 1px;
-    width: 40px;
-    left: 510px;
-    top: 288px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .list-subjects1 .inner-skil1 {
-    background: black;
-    border: 1px solid;
-    height: 1px;
-    width: 40px;
-    left: 510px;
-    top: 288px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .content-table1 {
-    margin-top: 4%;
-    border-collapse: collapse;
-    margin-left: 4.6%;
-    width: 10px;
-    color: black;
-    font-size: 11px;
-  }
-  .content-table1 thead tr {
-    background: #009879;
-    color: white;
-  }
-  .content-table1 thead tr th {
-    padding: 4px 10px;
-    text-transform: uppercase;
-  }
-  .content-table1 tbody tr {
-    border-bottom: 1px solid #dddddd;
-  }
-  .content-table1 tbody tr td {
-    padding: 4px 107px;
-  }
-  .content-table1 tbody tr:first-of-type {
-    background-color: #f3f3f3;
-  }
-  .content-table1 tbody tr:last-of-type {
-    border-bottom: 3px solid #009879;
-  }
 }
 
 #inputGroupSelect01 {
@@ -921,12 +816,14 @@ body {
   margin-top: 31px;
 }
 
-.form-control {
+.add_account {
   border-radius: 20px;
 }
 
 .footer_add_account {
-  width: 100%;
+  margin-top: 180px;
+  margin-bottom: -18px;
+  font-weight: 100%;
 }
 
 .buton {
@@ -935,4 +832,26 @@ body {
   padding: 4px 100px;
   font-size: 23px;
   margin-left: 25%;
+  cursor: pointer;
+}
+
+#add_role {
+  border-radius: 20px;
+  height: 45px;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
 }

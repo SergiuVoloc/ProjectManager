@@ -38,7 +38,7 @@
 
     <!-- TEXT -->
 
-    <div class="main_text1 text-center">
+    <div class="mb-12 main_text1 text-center">
         <h1 class="font-weight-bold ">Welcome teacher1 </h1> <br> <br>
         <h4>Full Name : Stefan Popescu</h4><br>
         <h5>Username : teacher1</h5>
@@ -46,45 +46,60 @@
     <!-- END TEXT -->
 
     <!-- LIST OF SUBJECTS -->
-    <div class="list-subjects1">
+    <div class="mb-12 list-subjects1">
         <div class="linie1">
-            <div class="inner-skill"></div>
+            <div class="mb-6 inner-skill"></div>
         </div>
         <h3 class="font-weight-bold text-center">list of subjects</h3>
-        <div class="linie2">
+        <div class="mb-6 linie2">
             <div class="inner-skil1"></div>
         </div>
     </div>
     <!-- END LIST OF SUBJECTS -->
 
     <!-- TABLE-->
-    <table class="content-table1 text-center ">
-        <thead>
-            <tr>
-                <th>subjects</th>
-                <th>number of subjects</th>
-                <th>ungraded subjects</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Subject No.1</td>
-                <td>46</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Subject No.2</td>
-                <td>46</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Subject No.3</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container mt-5">
+        <table class="table table-bordered table-hover table-striped content-table1">
+            <thead>
+                <tr>
+                    <th>subjects</th>
+                    <th>number of subjects</th>
+                    <th>ungraded subjects</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Subject No.1</td>
+                    <td>46</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Subject No.2</td>
+                    <td>46</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Subject No.3</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <!-- END TABLE -->
+
+    <!-- Footer start -->
+    <p class="footer mb-0 text-muted text-center footer_change_pw">
+        &copy; 2020
+    </p>
+    <!-- Footer end -->
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
