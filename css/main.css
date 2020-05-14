@@ -222,6 +222,18 @@ body {
   font-size: larger;
 }
 
+.login_field {
+  border-radius: 20px !important;
+}
+
+.login_field_submit {
+  border-radius: 20px !important;
+  max-width: 250px;
+  margin: auto;
+  height: 60px;
+  font-size: x-large;
+}
+
 .main_text1 h1 {
   margin-top: 1%;
   font-size: 75px;
@@ -886,6 +898,18 @@ body {
 
 .change_pw p {
   font-size: larger;
+}
+
+.change_pw_field {
+  border-radius: 20px !important;
+}
+
+.change_pw_submit {
+  border-radius: 20px !important;
+  max-width: 250px;
+  margin: auto;
+  height: 60px;
+  font-size: x-large;
 }
 
 .upload {
