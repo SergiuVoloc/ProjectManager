@@ -293,7 +293,7 @@ body {
 }
 
 .content-table1 {
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5px 5px 0 0;
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
@@ -318,6 +318,23 @@ body {
 
 .content-table1 tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 770px) {
+  .main_text1 h1 {
+    margin-top: 1%;
+    font-size: 25px;
+    color: black;
+  }
+  .main_text1 h4 {
+    margin-left: -10%;
+    color: black;
+  }
+  .main_text1 h5 {
+    margin-left: -15.2%;
+    font-size: 8px;
+    color: black;
+  }
 }
 
 #inputGroupSelect01 {
