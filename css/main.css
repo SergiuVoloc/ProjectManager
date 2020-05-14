@@ -805,38 +805,7 @@ body {
   color: black;
 }
 
-.TEXT_BOX {
-  margin-top: 2%;
-}
-
-.TEXT_BOX .form-con1 {
-  font-size: 20px;
-  width: 350px;
-  padding: 4px 120px 4px 4px;
-  border-radius: 20%;
-  border-radius: 20px;
-  border: 1px solid black;
-}
-
-.TEXT_BOX .form-con2 {
-  font-size: 20px;
-  width: 350px;
-  padding: 4px 120px 4px 4px;
-  border-radius: 20%;
-  border-radius: 20px;
-  border: 1px solid black;
-}
-
-.TEXT_BOX .form-con3 {
-  font-size: 20px;
-  padding: 10px 10px 120px 10px;
-  width: 1200px;
-  border-radius: 20%;
-  border-radius: 20px;
-  border: 1px solid black;
-}
-
-.TEXT_BOX .button3 {
+.button3 {
   height: 40px;
   width: 140px;
   border-radius: 30px;
@@ -886,6 +855,10 @@ body {
     background-color: #45aaf2;
     cursor: pointer;
   }
+}
+
+.new_project {
+  max-width: 400px !important;
 }
 
 .footer_change_pw {
