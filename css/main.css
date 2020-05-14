@@ -224,76 +224,31 @@ body {
 
 .main_text1 h1 {
   margin-top: 1%;
-  font-size: 75px;
+  font-size: 50px;
   color: black;
+  text-align: center;
 }
 
 .main_text1 h4 {
-  margin-left: -10%;
+  font-size: 20px;
   color: black;
+  text-align: center;
 }
 
 .main_text1 h5 {
-  margin-left: -15.2%;
   font-size: 23px;
   color: black;
-}
-
-.list-subjects1 .linie1::after {
-  content: "";
-  border: 1px solid;
-  color: black;
-  height: 1px;
-  width: 13%;
-  left: 26%;
-  top: 43%;
-  position: absolute;
-  border-radius: 20px;
-}
-
-.list-subjects1 .inner-skill {
-  background: black;
-  border: 1px solid;
-  height: 1px;
-  width: 13%;
-  left: 26%;
-  top: 43%;
-  position: absolute;
-  border-radius: 20px;
+  text-align: center;
 }
 
 .list-subjects1 h3 {
-  text-transform: uppercase;
   color: black;
   margin-top: 4%;
   font-size: 40px;
 }
 
-.list-subjects1 .linie2::after {
-  content: "";
-  border: 1px solid;
-  color: black;
-  height: 1px;
-  width: 13%;
-  left: 61%;
-  top: 43%;
-  position: absolute;
-  border-radius: 20px;
-}
-
-.list-subjects1 .inner-skil1 {
-  background: black;
-  border: 1px solid;
-  height: 1px;
-  width: 13%;
-  left: 61%;
-  top: 43%;
-  position: absolute;
-  border-radius: 20px;
-}
-
 .content-table1 {
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5px 5px 0 0;
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
@@ -318,6 +273,80 @@ body {
 
 .content-table1 tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 770px) {
+  .main_text1 h1 {
+    margin-top: 1%;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+  }
+  .main_text1 h4 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  .main_text1 h5 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  .content-table1 {
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  .content-table1 thead tr {
+    background: #009879;
+    color: white;
+  }
+  .content-table1 thead tr th {
+    text-transform: uppercase;
+  }
+  .content-table1 tbody tr td {
+    padding: 7px !important;
+  }
+}
+
+@media only screen and (min-width: 502px) {
+  .content-table1 {
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  .content-table1 thead tr {
+    background: #009879;
+    color: white;
+  }
+  .content-table1 thead tr th {
+    text-transform: uppercase;
+  }
+  .main_text1 h1 {
+    margin-top: 1%;
+    font-size: 50px;
+    color: black;
+  }
+  .main_text1 h4 {
+    color: black;
+  }
+  .main_text1 h5 {
+    font-size: 20px;
+    color: black;
+  }
+  .main_text1 .list-subjects1 h3 {
+    color: black;
+    margin-top: 4%;
+    font-size: 40px;
+  }
+  .small_th {
+    width: 300px !important;
+  }
+  .padding_20_column {
+    padding-left: 20px !important;
+  }
 }
 
 #inputGroupSelect01 {
