@@ -854,3 +854,64 @@ body {
   margin-top: 20px;
   overflow: hidden;
 }
+
+.align_center {
+  margin-left: 15%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.align_center b {
+  color: #009879;
+}
+
+.table_tile {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .align_center {
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .align_center b {
+    color: #009879;
+  }
+}
+
+@media (min-width: 768px) {
+  .align_center {
+    margin-left: 38%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .align_center b {
+    color: #009879;
+  }
+}
+
+@media (min-width: 1200px) {
+  .align_center {
+    margin-left: 42%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .align_center b {
+    color: #009879;
+  }
+}
