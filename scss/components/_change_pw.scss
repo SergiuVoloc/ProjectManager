@@ -4,7 +4,10 @@
     margin-top: 93px;
  }
 
- .change_pw{
+ .change_pw{ 
+     div{
+         border-radius: 20px;
+     }
      h1{
      font-size: 55px;
     }
@@ -12,3 +15,10 @@
         font-size: larger;
     }
  }
+
+
+ .submit_btn{
+    border-radius: 20px;
+    max-width: 300px;
+    margin: auto;
+  }
