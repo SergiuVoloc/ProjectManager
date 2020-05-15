@@ -319,7 +319,7 @@ body {
     font-size: 40px;
   }
   .small_th {
-    width: 300px !important;
+    width: 150px !important;
   }
   .padding_20_column {
     padding-left: 20px !important;
@@ -872,6 +872,10 @@ body {
   color: black;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+.small_th {
+  padding: 4px !important;
 }
 
 @media (min-width: 576px) {
