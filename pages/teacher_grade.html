@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Manager Platform</title>
+    <title>Grade Project</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="/css/main.min.css" />
 </head>
 
@@ -20,90 +21,92 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-md-right " id="navbarTarget">
-            <ul class="nav navbar-nav ml-auto mr-5 ">
-                <li class="nav-item active about pr-4">
-                    <a class="nav-link " href="#">Account</a>
+            <ul class="nav navbar-nav ml-auto ">
+                <li class="nav-item active account pr-5 nav_grade small_width ">
+                    <a class="nav-link" href="/pages/teacher_subjects.html">Account </a>
                 </li>
-                <li class="nav-item active getAccount">
-                    <a class="nav-link " href="#">Review Projects</a>
+                <li class="nav-item active getAccount nav_grade">
+                    <a class="nav-link  " href="/pages/teacher_review.html">Review Projects</a>
                 </li>
-                <li class="nav-item active getAccount">
-                    <a class="nav-link " href="#">Grading</a>
+                <li class="nav-item active getAccount nav_grade small_width">
+                    <a class="nav-link  " href="#">Grading</a>
                 </li>
-                <!-- <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle " id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item " href="#">Action</a>
-                    <a class="dropdown-item " href="#">Another action</a>
-                    <a class="dropdown-item " href="#">Something else here</a>
-                </div>
-            </li> -->
-
 
             </ul>
         </div>
     </nav>
     <!-- TEXT -->
-    <div class="main_text3 text-center">
-        <h1 class="font-weight-bold ">Grade Projects</h1>
+    <div class="main_text3 text-center mt-5">
+        <h1 class="font-weight-bold ">Grade Project</h1>
     </div>
     <!-- END TEXT -->
 
+    <div class="text-center">
+        <div class="container">
+            <form class="mt-2">
+                <div class="form-row align-items-center">
+                    <div class="col-auto ">
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="ID">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2 submit_btn">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- TABLE-->
+    <div class="container mt-5">
+        <table class="table table-bordered table-hover table-striped content-table1">
+            <thead>
+                <tr>
+                    <th class="pr-5 padding_20_column grade_table">student name </th>
+                    <th class="small_th grade_table">year</th>
+                    <th class="small_th grade_table">group</th>
+                    <th class="small_th grade_table">speciality</th>
+                    <th class="small_th grade_table">project id</th>
+                    <th class="small_th grade_table">project title</th>
+                    <th class="small_th grade_table">download</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="grade_table">
+                    <td class=" grade_table padding_20_column">Sergiu Voloc</td>
+                    <td class="grade_table">3</td>
+                    <td class="grade_table">CR 3.1</td>
+                    <td class="grade_table">Computer Science</td>
+                    <td class="grade_table"> 1</td>
+                    <td class="grade_table">Homework 1 APD</td>
+                    <td class="text-center grade_table"><button><i class="fas fa-file-download"></i></button></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+
 
     <!--  TEXTBOX AND BUTTON -->
-    <div class="text_box">
-        <input type="text" class="form-control" placeholder="Project ID" aria-label="Project ID">
-        <button class="button1">Submit</button>
+    <div class="text-center">
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label class="float-left font-weight-bold h6 ">Give the final grade:</label>
+                    <input type="text" class="form-control" id="new_project" placeholder="Grade">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Enter comments here"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block submit_btn" type="submit">Submit</button>
     </div>
     <!--  END  TEXTBOX AND BUTTON -->
 
 
-
-    <!-- TABLE-->
-    <table class="content-table3 text-center ">
-        <thead>
-            <tr>
-                <th>student name</th>
-                <th>year</th>
-                <th>group</th>
-                <th>speciality</th>
-                <th>grade project</th>
-                <th>project title</th>
-                <th>download</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Popescu Toni</td>
-                <td>3RD</td>
-                <td>3A</td>
-                <td>computers</td>
-                <td>0</td>
-                <td>Project Title</td>
-                <td>Click Here</td>
-            </tr>
-            <tr>
-                <td>Sergiu Voloc</td>
-                <td>3RD</td>
-                <td>3A</td>
-                <td>Computers</td>
-                <td>0</td>
-                <td>Project Title</td>
-                <td>Click Here</td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- END TABLE -->
-
-    <!--  TEXTBOX AND BUTTON -->
-    <div class="text_box2">
-        <input type="text" class="form-control1" placeholder="Enter Final Grade Here"
-            aria-label="Enter Final Grade Here">
-        <input type="text" class="form-control2" placeholder="Enter notes , review , comments here"
-            aria-label="Enter notes , review , comments here">
-        <button class="button2">Submit</button>
-    </div>
 
     <!-- Footer start -->
     <p class="footer mb-0 text-muted text-center footer_change_pw">

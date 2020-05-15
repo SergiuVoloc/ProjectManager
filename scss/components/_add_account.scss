@@ -1,41 +1,30 @@
-.add_account{
-    border-radius:20px;
-
-}
-
-.footer_add_account{ 
-     margin-top: 180px;
-     margin-bottom: -18px;
-     font-weight: 100%;
-}
-
-.buton{
-    border:none;
-    border-radius:20px;
-    padding: 4px 100px;
-    font-size:23px;
-    margin-left: 25%;
-    cursor: pointer;
-}
-
-#add_role{
-    border-radius:20px;
-    height: 45px;
-   
-}
-
 .filterDiv {
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
+
     display: none;
   }
-
+  
+  .show {
+    display: block;
+  }
+  
   .container {
     margin-top: 20px;
     overflow: hidden;
+  }
+  
+
+  .btn {
+    // border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+ .btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: blue!important;
   }

@@ -1,7 +1,29 @@
+.align_center_teacher{  
+    float:left;    
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+
+    b{
+        color: $green;
+    }
+}
+
+.table_tile{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
 .main_text1{
     h1{
         margin-top:1%;
-        font-size: 50px;
+        font-size: 50px; 
         color: black;
         text-align:center;
     }
@@ -69,7 +91,24 @@
 
 }
 
+
+
+
+
 @media only screen and(max-width:770px){
+    .align_center_teacher{  
+        float:left;    
+        margin-left: 30%;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    
+        b{
+            color: $green;
+        }
+    }
     .main_text1{
         h1{
             margin-top:1%;
@@ -119,6 +158,41 @@
     
 }
 
+
+
+
+@media only screen and(min-width:770px){
+    .align_center_teacher{  
+        float:left;    
+        margin-left: 35%;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    
+        b{
+            color: $green;
+        }
+    }
+
+}
+
+@media only screen and(min-width:1200px){
+    .align_center_teacher{  
+        float:left;    
+        margin-left: 40%;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    
+        b{
+            color: $green;
+        }
+    }
+}
 
 @media only screen and(min-width:502px){
 

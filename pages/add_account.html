@@ -39,63 +39,65 @@
     <!--Add Account  start -->
     <div class="container">
         <form class="form-signin change_pw">
-            <div class="text-center mb-4">
+            <div class="text-center ">
                 <h1 class="h1 mb-4 font-weight-bold text-dark">Add Account</h1>
-
             </div>
 
-            <div class="form-label-group mb-2 mt-5">
-                <label class="text-dark font-weight-bold" for="inputEmail">Username</label>
+
+            <div class="text-center" id="myDIV">
+                <button class="btn btn-primary ml-4 mr-4" onclick="filterSelection('Student')"> Student</button>
+                <button class="btn btn-primary  ml-4 mr-4" onclick="filterSelection('Teacher')"> Teacher</button>
+            </div>
+
+
+
+
+            <div class="form-label-group  filterDiv Student Teacher mb-1">
+                <label class="text-dark font-weight-bold " for="text">Username</label>
                 <input type="text" class="add_account form-control" placeholder="Username" required autofocus>
             </div>
 
-            <div class="form-group" id="myBtnContainer">
-                <label class="text-dark font-weight-bold">Choose Role</label>
-                <select class="form-control" id="add_role">
-                    <option selected>Choose Role </option>
-                    <option class="add_role">Student</option>
-                    <option class="add_role">Teacher</option>
-                </select>
+            <div class="form-label-group filterDiv Student Teacher mb-1">
+                <label class="text-dark font-weight-bold " for="text">First Name</label>
+                <input type="text" class="add_account form-control" placeholder="First Name" required>
             </div>
 
-            <!-- <div class="form-label-group mb-1">
-                <label class="text-dark font-weight-bold" for="inputPassword">First Name</label>
-                <input type="text" class="add_account form-control" placeholder=" First Name" required autofocus>
+            <div class="form-label-group filterDiv Student Teacher mb-1">
+                <label class="text-dark font-weight-bold " for="text">Last Name</label>
+                <input type="text" class="add_account form-control" placeholder="Last Name" required>
             </div>
 
-            <div class="form-label-group mb-1">
-                <label class="text-dark font-weight-bold" for="inputPassword">Last Name</label>
-                <input type="text" class="add_account form-control" placeholder="Last Name" required autofocus>
-            </div>
-            <div class="filterDiv student">
+
+
+            <div class="filterDiv Student">
                 <div class="form-label-group mb-1">
                     <label class="text-dark font-weight-bold" for="inputPassword">Year</label>
-                    <input type="text" class="add_account form-control" placeholder=" Year" required autofocus>
+                    <input type="text" class="add_account form-control" placeholder=" Year" required>
                 </div>
 
-                <div class="form-label-group mb-1">
+                <div class="form-label-group mb-1 Student">
                     <label class="text-dark font-weight-bold" for="inputPassword">Specialization</label>
                     <input type="text" class="add_account form-control" placeholder=" Specialization" required
                         autofocus>
                 </div>
 
-                <div class="form-label-group mb-1">
+                <div class="form-label-group mb-1 Student">
                     <label class="text-dark font-weight-bold" for="inputPassword">Group</label>
-                    <input type="text" class="add_account form-control" placeholder=" Group" required autofocus>
+                    <input type="text" class="add_account form-control" placeholder=" Group" required>
                 </div>
             </div>
 
-            <div class="filterDiv teacher">
+            <div class="filterDiv Teacher">
                 <div class="form-label-group mb-1">
-                    <label class="text-dark font-weight-bold" for="inputPassword">Subject</label>
+                    <label class="text-dark font-weight-bold" for="inputPassword">Discipline</label>
                     <input type="text" class="add_account form-control" placeholder=" Subject" required autofocus>
                 </div>
-            </div> -->
-
-
+            </div>
 
             <br>
-            <button class="buton   btn-primary " type="submit">Submit</button>
+            <div class="text-center">
+                <button class="btn buton btn-primary  " type="submit">Submit</button>
+            </div>
         </form>
     </div>
     <!-- Add Account  end -->
@@ -118,7 +120,7 @@
     <script src="/js/bootstrap.min.js"></script>
 
     <script>
-        filterSelection("all")
+        filterSelection("Teacher")
         function filterSelection(c) {
             var x, i;
             x = document.getElementsByClassName("filterDiv");
@@ -128,6 +130,7 @@
                 if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
             }
         }
+
         function w3AddClass(element, name) {
             var i, arr1, arr2;
             arr1 = element.className.split(" ");
@@ -141,7 +144,6 @@
             var i, arr1, arr2;
             arr1 = element.className.split(" ");
             arr2 = name.split(" ");
-
             for (i = 0; i < arr2.length; i++) {
                 while (arr1.indexOf(arr2[i]) > -1) {
                     arr1.splice(arr1.indexOf(arr2[i]), 1);
@@ -150,16 +152,6 @@
             element.className = arr1.join(" ");
         }
 
-        // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("add_role");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
 
     </script>
 

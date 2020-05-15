@@ -11,18 +11,19 @@ $green:#009879;
 @import "components/navbar";
 @import "components/carousel";
 @import "components/footer";
-@import "components/login";
 
 
 //             Pages:
-@import "components/subjects_list";
-@import "components/review";
-@import "components/grade";
-@import "components/add_new";
+@import "components/login";
+@import "components/teacher_subjects_list";
+@import "components/teacher_review";
+@import "components/teacher_grade";
+@import "components/teacher_add_project";
 @import "components/change_pw";
-@import "components/upload";
-@import "components/add_account";
+@import "components/student_upload";
+// @import "components/admin_add_account";
 @import "components/student_page";
+@import "components/add_account";
 
 
 //  used to help debuging
