@@ -7,13 +7,14 @@
     <title>Project Manager Platform</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="/css/main.min.css" />
 </head>
 
 <body>
     <!-- ====================== NAVBAR ============================ -->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <a class="navbar-brand " href="#">University of Craiova</a>
+        <a class="navbar-brand " href="/pages/login.html">University of Craiova</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTarget"
             aria-controls="navbarTarget" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,60 +23,102 @@
         <div class="collapse navbar-collapse justify-content-md-right " id="navbarTarget">
             <ul class="nav navbar-nav ml-auto mr-5 ">
                 <li class="nav-item active about pr-4">
-                    <a class="nav-link " href="#">Account</a>
+                    <a class="nav-link " href="/pages/teacher_subjects.html">Account</a>
                 </li>
                 <li class="nav-item active getAccount">
-                    <a class="nav-link " href="#">Review Projects</a>
+                    <a class="nav-link " href="/pages/teacher_review.html">Review Projects</a>
                 </li>
                 <li class="nav-item active getAccount">
-                    <a class="nav-link " href="#">Add New project</a>
+                    <a class="nav-link " href="/pages/teacher_add_project.html">Add New project</a>
                 </li>
-                <!-- <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle " id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item " href="#">Action</a>
-                    <a class="dropdown-item " href="#">Another action</a>
-                    <a class="dropdown-item " href="#">Something else here</a>
-                </div>
-            </li> -->
-
 
             </ul>
         </div>
     </nav>
-    <!-- TEXT -->
-    <div class="main_text2 text-center">
-        <h1 class="font-weight-bold ">Review Projects</h1> <br> <br>
-        <select class="costum-select" id="inputGroupSelect01">
-            <option selected>Choose Subject</option>
-            <option value="1">Baze de Date</option>
-            <option value="2">Structuri de Date</option>
-            <option value="3">Inginerie Software</option>
-        </select>
-        <br>
-        <select class="costum-select" id="inputGroupSelect01">
-            <option selected>Choose Project</option>
-            <option value="1">DataBase</option>
-            <option value="2">Algorithm</option>
-            <option value="3">Software</option>
-        </select>
-    </div>
-    <!-- END TEXT -->
 
-    <!-- LIST OF SUBJECTS -->
-    <div class="list-subjects2">
-        <div class="linie1">
-            <div class="inner-skill"></div>
+    <!-- Form start-->
+    <form class="upload">
+        <div class="text-center mb-4">
+            <h1 class="h1 mb-3 font-weight-bold text-dark">Review Projects</h1>
         </div>
-        <h3 class="font-weight-bold text-center">Subjects to be reviwed</h3>
-        <div class="linie2">
-            <div class="inner-skil1"></div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose Discipline:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Dicipline 1</option>
+                <option>Dicipline 2</option>
+                <option>Dicipline 3</option>
+                <option>Dicipline 4</option>
+                <option>Dicipline 5</option>
+            </select>
         </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose the Project</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Project 1</option>
+                <option>Project 2</option>
+                <option>Project 3</option>
+                <option>Project 4</option>
+                <option>Project 5</option>
+            </select>
+        </div>
+    </form>
+    <!-- Form end-->
+
+
+    <!-- TABLE-->
+    <div class="container mt-5">
+        <table class="table table-bordered table-hover table-striped content-table1">
+            <h3 class="text-dark text-center mb-4 mt-0">List of Projects to be reviewed:</h3>
+            <thead>
+                <tr>
+                    <th class="pr-5 padding_20_column grade_table">student name </th>
+                    <th class="small_th grade_table">year</th>
+                    <th class="small_th grade_table">group</th>
+                    <th class="small_th grade_table">speciality</th>
+                    <th class="small_th grade_table">project title</th>
+                    <th class="small_th grade_table">download</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="grade_table">
+                    <td class=" grade_table padding_20_column">Sergiu Voloc</td>
+                    <td class="grade_table">3</td>
+                    <td class="grade_table">CR 3.1</td>
+                    <td class="grade_table">Computer Science</td>
+                    <td class="grade_table"><a href="/pages/teacher_grade.html">Homework 1 APD</a></td>
+                    <td class="text-center grade_table"><button><i class="fas fa-file-download"></i></button></td>
+                </tr>
+                <tr class="grade_table">
+                    <td class=" grade_table padding_20_column">Sergiu Voloc</td>
+                    <td class="grade_table">3</td>
+                    <td class="grade_table">CR 3.1</td>
+                    <td class="grade_table">Computer Science</td>
+                    <td class="grade_table"><a href="/pages/teacher_grade.html">Homework 1 APD</a></td>
+                    <td class="text-center grade_table"><button><i class="fas fa-file-download"></i></button></td>
+                </tr>
+                <tr class="grade_table">
+                    <td class=" grade_table padding_20_column">Sergiu Voloc</td>
+                    <td class="grade_table">3</td>
+                    <td class="grade_table">CR 3.1</td>
+                    <td class="grade_table">Computer Science</td>
+                    <td class="grade_table"><a href="/pages/teacher_grade.html">Homework 1 APD</a></td>
+                    <td class="text-center grade_table"><button><i class="fas fa-file-download"></i></button></td>
+                </tr>
+                <tr class="grade_table">
+                    <td class=" grade_table padding_20_column">Sergiu Voloc</td>
+                    <td class="grade_table">3</td>
+                    <td class="grade_table">CR 3.1</td>
+                    <td class="grade_table">Computer Science</td>
+                    <td class="grade_table"><a href="/pages/teacher_grade.html">Homework 1 APD</a></td>
+                    <td class="text-center grade_table"><button><i class="fas fa-file-download"></i></button></td>
+                </tr>
+
+            </tbody>
+        </table>
     </div>
-    <!-- END LIST OF SUBJECTS -->
-
-
+    <!-- TABLE-->
 
 
     <!-- Footer start -->
